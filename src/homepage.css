@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&display=swap');
+
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    background: url("../sfondo.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    font-family: 'Lilita One', cursive;
+    overflow: hidden;
+}
+
+.titolo{
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 45px;
+    width: 100%;
+    text-shadow: -2px -2px 0 #D985B6, 2px -2px 0 #D985B6, -2px 2px 0 #D985B6, 2px 2px 0 #D985B6;
+    text-align: center;
+}
+
+.sfondo-logo
+{
+    background: white;
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    border-radius: 100px;
+}
+
+.logo{
+    background: url("./sponsor.png");
+    background-size: cover;
+    width: 10vh;
+    height: 10vh;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.sponsored-by{
+    color: white;
+    width: 100vh;
+    height: 10vh;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-righe
+{
+    width: 90%;
+    height: 65%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.riga{
+    width: 100%;
+    height: 12%;
+    display: flex;
+margin-bottom: 5px;
+margin-left: 15px;
+}
+
+.foto{
+    width: 20%;
+    height: 100%;
+    background: blue;
+}
+
+.nome{
+    font-family: 'Lilita One', cursive;
+    text-shadow: -2px -2px 0 #D985B6, 2px -2px 0 #D985B6, -2px 2px 0 #D985B6, 2px 2px 0 #D985B6;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
