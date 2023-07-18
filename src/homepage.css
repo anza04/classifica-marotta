@@ -78,7 +78,9 @@
 .foto{
     width: 20%;
     height: 100%;
-    background: blue;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .nome{
@@ -91,4 +93,60 @@
     align-items: center;
     text-align: center;
     margin-left: 20px;
+}
+
+#anza{
+    background: url("./img/anza.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pit{
+    background: url("./img/pit.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#trenta{
+    background: url("./img/30i.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#onorevole{
+    background: url("./img/lollo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#garna{
+    background: url("./img/garna.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#faso{
+    background: url("./img/faso.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#riky{
+    background: url("./img/riky.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#broggi{
+    background: url("./img/broggi.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
