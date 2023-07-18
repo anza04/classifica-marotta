@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&display=swap');
 
 .homepage{
-    height: 100vh;
-    width: 100vw;
+    height: 100svh;
+    width: 100svw;
     background: url("./img/sfondo.jpeg");
     background-size: cover;
     background-repeat:no-repeat ;
